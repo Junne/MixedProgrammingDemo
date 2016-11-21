@@ -3,4 +3,5 @@
 //
 
 #import "MixedCTest.h"
+#import "ViewController.h"
 

@@ -21,7 +21,10 @@
     [super viewDidLoad];
 }
 
-
+- (void)helloOC
+{
+    NSLog(@"Hello Objective-C");
+}
 
 - (IBAction)swiftMethod:(id)sender {
     

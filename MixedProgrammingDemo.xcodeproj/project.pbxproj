@@ -18,7 +18,8 @@
 		F5537B9E1CB362BB00CC4DE0 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5537B9D1CB362BB00CC4DE0 /* OneViewController.swift */; };
 		F5537BA11CB36A6F00CC4DE0 /* MixedCTest.c in Sources */ = {isa = PBXBuildFile; fileRef = F5537B9F1CB36A6F00CC4DE0 /* MixedCTest.c */; };
 		F5537BA41CB37ECA00CC4DE0 /* MixedCPPTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5537BA21CB37ECA00CC4DE0 /* MixedCPPTest.cpp */; };
-		F5E8FBCD1DE2C71F009241E1 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8FBCC1DE2C71F009241E1 /* TwoViewController.swift */; };
+		F5E8FBCF1DE2D2AB009241E1 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8FBCE1DE2D2AB009241E1 /* TwoViewController.swift */; };
+		F5E8FBD11DE2D44E009241E1 /* TwoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E8FBD01DE2D44E009241E1 /* TwoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +62,8 @@
 		F5537BA01CB36A6F00CC4DE0 /* MixedCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedCTest.h; sourceTree = "<group>"; };
 		F5537BA21CB37ECA00CC4DE0 /* MixedCPPTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MixedCPPTest.cpp; sourceTree = "<group>"; };
 		F5537BA31CB37ECA00CC4DE0 /* MixedCPPTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MixedCPPTest.hpp; sourceTree = "<group>"; };
-		F5E8FBCC1DE2C71F009241E1 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		F5E8FBCE1DE2D2AB009241E1 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		F5E8FBD01DE2D44E009241E1 /* TwoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +122,9 @@
 				F5537BA31CB37ECA00CC4DE0 /* MixedCPPTest.hpp */,
 				F5537B9F1CB36A6F00CC4DE0 /* MixedCTest.c */,
 				F5537BA01CB36A6F00CC4DE0 /* MixedCTest.h */,
-				F5E8FBCC1DE2C71F009241E1 /* TwoViewController.swift */,
 				F5537B9D1CB362BB00CC4DE0 /* OneViewController.swift */,
+				F5E8FBCE1DE2D2AB009241E1 /* TwoViewController.swift */,
+				F5E8FBD01DE2D44E009241E1 /* TwoTableViewCell.swift */,
 				F5537B721CB3622B00CC4DE0 /* Main.storyboard */,
 				F5537B751CB3622B00CC4DE0 /* Assets.xcassets */,
 				F5537B771CB3622B00CC4DE0 /* LaunchScreen.storyboard */,
@@ -294,8 +297,9 @@
 				F5537B6E1CB3622B00CC4DE0 /* AppDelegate.m in Sources */,
 				F5537BA11CB36A6F00CC4DE0 /* MixedCTest.c in Sources */,
 				F5537B6B1CB3622B00CC4DE0 /* main.m in Sources */,
-				F5E8FBCD1DE2C71F009241E1 /* TwoViewController.swift in Sources */,
+				F5E8FBCF1DE2D2AB009241E1 /* TwoViewController.swift in Sources */,
 				F5537B9E1CB362BB00CC4DE0 /* OneViewController.swift in Sources */,
+				F5E8FBD11DE2D44E009241E1 /* TwoTableViewCell.swift in Sources */,
 				F5537BA41CB37ECA00CC4DE0 /* MixedCPPTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
