@@ -21,11 +21,12 @@ class OneViewController: UIViewController {
         print("Swift Hello Wrold!");
     }
     
-    func twoSum(nums:[Int], _ target:Int) -> [Int] {
+    func twoSum(_ nums:[Int], _ target:Int) -> [Int] {
         var result:[Int] =  []
-        for(var i = 0; i < nums.count; i++) {
+        
+        for i in 0..<nums.count {
             let first = nums[i]
-            for (var j = i+1; j < nums.count; j++) {
+            for j in (i+1)..<nums.count {
                 let second = nums[j]
                 if (first + second == target) {
                     result = [i,j]
@@ -37,10 +38,10 @@ class OneViewController: UIViewController {
         return result
     }
     
-    func twoSumHashMap(nums:[Int], _ target: Int) -> [Int] {
+    func twoSumHashMap(_ nums:[Int], _ target: Int) -> [Int] {
         var result:[Int] = []
         var map:[Int:Int] = [:]
-        for (index , x) in nums.enumerate() {
+        for (index , x) in nums.enumerated() {
             let value = target - x
             if let anotherIndex = map[value] {
                 result.append(anotherIndex)
